@@ -1,0 +1,8 @@
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\bin\Release\CheckData.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\bin\Release\CheckData.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\obj\Release\CheckData.csprojResolveAssemblyReference.cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\obj\Release\CheckData.Properties.Resources.resources
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\obj\Release\CheckData.csproj.GenerateResource.Cache
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\obj\Release\CheckData.exe
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\obj\Release\CheckData.pdb
+C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\CheckData\obj\Release\CheckData.Main.resources

@@ -1,0 +1,33 @@
+﻿#Software: AnalyticalPlatform
+#ProcessID: 9056
+#AppDomain: AnalyticalPlatform.vshost.exe
+#FileName: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Release\AnalyticalPlatform.vshost.exe
+#BaseDirectory: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Release\
+#ApplicationType: WinForm
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2014-12-16
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:50:14.117 10 N - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:50:14.267 10 N - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:50:14.268 10 N - 开始初始化实体类User
+22:50:14.285 10 N - 完成初始化实体类User
+22:50:22.039 10 N - 开始初始化实体类DataBase
+22:50:22.040 10 N - 完成初始化实体类DataBase
+
+#Software: AnalyticalPlatform
+#ProcessID: 14860
+#AppDomain: AnalyticalPlatform.vshost.exe
+#FileName: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Release\AnalyticalPlatform.vshost.exe
+#BaseDirectory: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Release\
+#ApplicationType: WinForm
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2014-12-16
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+22:58:01.799 10 N - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+22:58:01.929 10 N - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+22:58:01.929 10 N - 开始初始化实体类User
+22:58:01.933 10 N - 完成初始化实体类User
+22:58:03.066 10 N - 开始初始化实体类DataBase
+22:58:03.066 10 N - 完成初始化实体类DataBase

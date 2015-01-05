@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2EE82664-8FD5-4A69-BBBF-176D58EEF5CD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AnalyticalPlatform</RootNamespace>
+    <AssemblyName>AnalyticalPlatform</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>AnalyticalPlatform.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClownFish">
+      <HintPath>..\..\..\..\..\Desktop\测试\ClownFishDEMO.cab\ClownFishDEMO\Bin\ClownFish.dll</HintPath>
+    </Reference>
+    <Reference Include="NewLife.CommonEntity">
+      <HintPath>F:\兴趣项目\XCode\DLL4_Debug\NewLife.CommonEntity.dll</HintPath>
+    </Reference>
+    <Reference Include="NewLife.Core">
+      <HintPath>F:\兴趣项目\XCode\DLL4_Debug\NewLife.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="XCode">
+      <HintPath>F:\兴趣项目\XCode\DLL4_Debug\XCode.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdvancedSearchTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdvancedSearchTask.Designer.cs">
+      <DependentUpon>AdvancedSearchTask.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\ConnectionIO.cs" />
+    <Compile Include="Code\ConvertData.cs" />
+    <Compile Include="Code\DataTableManager.cs" />
+    <Compile Include="Code\Entity\DataBase.Biz.cs" />
+    <Compile Include="Code\Entity\DataBase.cs" />
+    <Compile Include="Code\GlobalParams.cs" />
+    <Compile Include="Code\Entity\Log.Biz.cs" />
+    <Compile Include="Code\Entity\Log.cs" />
+    <Compile Include="Code\InstituteManager.cs" />
+    <Compile Include="Code\ReferenceManager.cs" />
+    <Compile Include="Code\Result.cs" />
+    <Compile Include="Code\Entity\Tasks.Biz.cs" />
+    <Compile Include="Code\Entity\Tasks.cs" />
+    <Compile Include="Code\Entity\User.Biz.cs" />
+    <Compile Include="Code\Entity\User.cs" />
+    <Compile Include="Code\ImportFiles.cs" />
+    <Compile Include="DistinctRows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DistinctRows.Designer.cs">
+      <DependentUpon>DistinctRows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExecProcedure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExecProcedure.Designer.cs">
+      <DependentUpon>ExecProcedure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportDataFromFiles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportDataFromFiles.designer.cs">
+      <DependentUpon>ImportDataFromFiles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information.Designer.cs">
+      <DependentUpon>Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Code\MemoryDatabase.cs" />
+    <Compile Include="Code\Paper.cs" />
+    <Compile Include="Code\PaperManager.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SaveFree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SaveFree.Designer.cs">
+      <DependentUpon>SaveFree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UploadDataToCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UploadDataToCenter.Designer.cs">
+      <DependentUpon>UploadDataToCenter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DownloadDataFromCenter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DownloadDataFromCenter.Designer.cs">
+      <DependentUpon>DownloadDataFromCenter.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AdvancedSearchTask.resx">
+      <DependentUpon>AdvancedSearchTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DistinctRows.resx">
+      <DependentUpon>DistinctRows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExecProcedure.resx">
+      <DependentUpon>ExecProcedure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportDataFromFiles.resx">
+      <DependentUpon>ImportDataFromFiles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information.resx">
+      <DependentUpon>Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SaveFree.resx">
+      <DependentUpon>SaveFree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UploadDataToCenter.resx">
+      <DependentUpon>UploadDataToCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DownloadDataFromCenter.resx">
+      <DependentUpon>DownloadDataFromCenter.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

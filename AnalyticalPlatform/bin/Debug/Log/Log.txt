@@ -1,0 +1,16 @@
+23:00总共打开:1个文件
+[2014-12-16 23:00:35]打开文件：C:\Users\lenovo\Desktop\11501-12000.txt
+[2014-12-16 23:00:35]已经上传文件数量:0
+【2014-12-16 23:00:35】未将对象引用设置到对象的实例。
+23:02总共打开:1个文件
+[2014-12-16 23:02:35]打开文件：C:\Users\lenovo\Desktop\11501-12000.txt
+[2014-12-16 23:02:35]已经上传文件数量:0
+【2014-12-16 23:02:35】In multicenter studies subjects in different centers may have different outcome distribution. This article is motivated by the problem of nonparametric modeling of these distributions, borrowing information across centers while also allowing centers to be clustered, Starting with a stick-breaking representation of the Dricichlet process (DP). we replace that random atoms with random probability measures drawn from a DP. This results in a nested DP prior, which can be placed on the collection of distributions for the different centers with centers drawn from the same DP component authomatically clustered together. Theorectical properties are discussed and an efficient Markov chain Monte Carlo algorithm is developed for computation. The methods are illustrated using a simulation study and an application to quality of care in U.S hospitals. ||FINITE NORMAL MIXTURES; PROBABILITY-MEASURES; BAYESIAN-INFERENCE; SAMPLING METHODS; PROCESS MODELS; DISTRIBUTIONS; HETEROGENEITY; REGRESSION; PRIORS 
+23:04总共打开:1个文件
+[2014-12-16 23:04:22]打开文件：C:\Users\lenovo\Desktop\11501-12000.txt
+[2014-12-16 23:04:22]已经上传文件数量:0
+【2014-12-16 23:04:22】WOS:000260193700019
+23:05总共打开:1个文件
+[2014-12-16 23:05:40]打开文件：C:\Users\lenovo\Desktop\11501-12000.txt
+[2014-12-16 23:05:43]已经上传文件数量:500
+

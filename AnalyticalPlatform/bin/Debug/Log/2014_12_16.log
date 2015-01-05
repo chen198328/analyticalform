@@ -1,0 +1,50 @@
+﻿#Software: AnalyticalPlatform
+#ProcessID: 12112
+#AppDomain: AnalyticalPlatform.vshost.exe
+#FileName: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Debug\AnalyticalPlatform.vshost.exe
+#BaseDirectory: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Debug\
+#ApplicationType: WinForm
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2014-12-16
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:00:20.740 10 N - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+23:00:20.814 10 N - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+23:00:20.815 10 N - 开始初始化实体类User
+23:00:20.840 10 N - 完成初始化实体类User
+23:00:21.831 10 N - 开始初始化实体类DataBase
+23:00:21.831 10 N - 完成初始化实体类DataBase
+
+#Software: AnalyticalPlatform
+#ProcessID: 10060
+#AppDomain: AnalyticalPlatform.vshost.exe
+#FileName: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Debug\AnalyticalPlatform.vshost.exe
+#BaseDirectory: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Debug\
+#ApplicationType: WinForm
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2014-12-16
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:02:19.739 9 N - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+23:02:19.781 9 N - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+23:02:19.782 9 N - 开始初始化实体类User
+23:02:19.785 9 N - 完成初始化实体类User
+23:02:20.491 9 N - 开始初始化实体类DataBase
+23:02:20.491 9 N - 完成初始化实体类DataBase
+
+#Software: AnalyticalPlatform
+#ProcessID: 14432
+#AppDomain: AnalyticalPlatform.vshost.exe
+#FileName: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Debug\AnalyticalPlatform.vshost.exe
+#BaseDirectory: C:\Users\lenovo\Documents\Visual Studio 2013\Projects\AnalyticalPlatform\AnalyticalPlatform\bin\Debug\
+#ApplicationType: WinForm
+#CLR: 4.0.30319.18408
+#OS: Windows 7 Service Pack 1, lenovo/LENOVO-PC
+#Date: 2014-12-16
+#Fields: Time ThreadID IsPoolThread ThreadName Message
+23:04:08.293 9 N - NewLife.Core v4.1.2014.0219 Build 2014-02-27 12:44:54
+23:04:08.340 9 N - NewLife.XCode v8.10.2014.0221 Build 2014-02-27 12:44:02
+23:04:08.340 9 N - 开始初始化实体类User
+23:04:08.343 9 N - 完成初始化实体类User
+23:04:09.120 9 N - 开始初始化实体类DataBase
+23:04:09.121 9 N - 完成初始化实体类DataBase
